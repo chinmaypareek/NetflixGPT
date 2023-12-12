@@ -4,5 +4,33 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: ["tailwind-scrollbar-hide"],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".no-scrollbar::webkit-scrollbar": {
+          display: "none",
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
+
+// @layer utilities {
+//   @variants responsive {
+//     /* Hide scrollbar for Chrome, Safari, and Opera */
+//     .no-scrollbar::-webkit-scrollbar {
+//       display: none;
+//     }
+
+//     /* Hide scrollbar for IE, Edge, and Firefox */
+//     .no-scrollbar {
+//       -ms-overflow-style: none; /* IE and Edge */
+//       scrollbar-width: none; /* Firefox */
+//     }
+//   }
+// }

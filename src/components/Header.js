@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute w-screen px-16 py-2 bg-gradient-to-b from-black z-10 flex justify-between ">
+    <div className="absolute w-screen px-16 py-2 pl-12 bg-gradient-to-b from-black z-10 flex justify-between ">
       <img className="w-44" src={LOGO} alt="Netfix-logo" />
       {user && (
         <div className="flex">
