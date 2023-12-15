@@ -6,7 +6,7 @@ const MainContainer = () => {
   const movies = useSelector((store) => store.movies?.nowPlayingMovies);
   //   console.log(movies);
   if (!movies) return;
-  const randomIndex = Math.floor(Math.random() * movies.length + 1);
+  // const randomIndex = Math.floor(Math.random() * movies.length + 1);
 
   const mainMovie = movies[0];
 
