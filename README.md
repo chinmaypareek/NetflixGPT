@@ -60,5 +60,10 @@
     - MovieSuggestions
       - MovieLists\*N
 - NetflixGPT
+
   - SearchBar
   - Movie Suggestions (using OpenAI API's)
+
+  App can be accessed via this below link
+
+https://657d7865ff0bc21bf5aae27b--sage-ganache-985ab2.netlify.app/
