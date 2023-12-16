@@ -4,13 +4,19 @@ import GptSearchBar from "./GptSearchBar";
 
 function GptSearch() {
   return (
-    <div>
-      <div className="fixed -z-10">
-        <img src={BANNER} alt="Netflix banner" />
+    <>
+      <div className="fixed -z-10 w-full">
+        <img
+          className="h-screen object-cover w-full"
+          src={BANNER}
+          alt="Netflix banner"
+        />
       </div>
-      <GptSearchBar />
-      <GptMovieSuggestions />
-    </div>
+      <div className="">
+        <GptSearchBar />
+        <GptMovieSuggestions />
+      </div>
+    </>
   );
 }
 
