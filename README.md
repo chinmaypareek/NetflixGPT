@@ -1,69 +1,76 @@
-# Netflix GPT 🚀
+NetflixGPT
+Welcome to NetflixGPT, the go-to website for in-depth movie exploration.NetflixGPT is more than a website; it's your ultimate movie encyclopedia. Dive into trailers, explore cast and crew details, unravel plot summaries, enjoy trivia, and stay informed with ratings and reviews. Experience movies like never before! 🍿🌟
 
-- create-react-app
-- Configured TailwindCSS
-- Header
-- Routing of App
-- Login Form
-- Sign Up Form
-- Form Validation
-- useRef() Hook
-- Firebase Setup
-- Deploying our App to Production
-- Create SignUp user account in firebase
-- Implement Sign In User API
-- Created Redux store with userSlice
-- Implemented Sign out
-- Update profile
-- Bugfix: Signup user displayName update
-- Bugfix: If the user is not loggged-in and try to access '/browse' manually, redirectTo '/' and vice-versa.
-- Unsubscribed to the onAuthStateChange() callback
-- Add hardcoded values to the constants file
-- Register TMDB API & create an app & get access token
-- Get data from TMDB Now Playing Movie Lists API
-- Custom Hook for nowPlayingMovies
-- Create a movieSlice
-- Update the store with movies data
-- Planning for MainContainer and SecondaryContainer
-- Fetch data for trailer video
-- Update store with trailer video data
-- Embedded the YT video and make it autoplay and mute
-- Tailwind classes to look MainContainer look awesome
-- Built Secondary Component
-- Built the Movie List
-- Built the Movie Card
-- TMDB Img CDN_URL
-- Made the browse page amazing with TailwindCSS
-- Created Many custom hooks like (usePopularMovies())
-- GPT Search feature
-- GPT Search Page
-- GPT Search Bar
-- Multi-language feature in our App
-- GPT Search OpenAI API Key
-- GPT Search API call
-- Fetched GPT Movie suggestions from TMDB API
-- Created GPT Slice and added data there
-- Reused MovieList component to make Movie Suggestion container
-- Memoization
-- Made our Site responsive
+Table of Contents
+Tech Marvels
+Key Features
+Technology Used
+Getting Started
+Screenshots
+Tech Marvels:
+Form Validation
+Firebase Authentication (Login/Logout)
+React Router Dom for seamless routing
+TMDB API for a vast movie database
+OpenAI API for intelligent movie searches
+Multilingual Support
+Netflix & IMDb-inspired UI with Tailwind CSS
+Redux Toolkit for efficient state management
+Responsive design for mobile devices
+Memoization for optimized performance
+Key Features:
+Login/Signup:
+Streamlined sign-in/sign-up forms
+Effortless redirection to the browse page post-authentication
+Browse Page (After Authentication):
+Intuitive Header
+Main Movie Section with:
+Background Trailer
+Title and Description
+Movie Suggestions
+NetflixGPT:
+Dynamic Search Bar
+Personalized Movie Suggestions
+Movie Page:
+Watch Trailers
+Access Reviews and Ratings
+Add to Favorites
+Add to Watchlist
+Explore Movie Suggestions
+Technologies Used
+React.js: A popular JavaScript library for building user interfaces.
 
-# Features
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
-- Login/Sign up
-  - SignIn/SignUp Form
-  - Redirects to browse Page
-- Browse (after authentication)
-  - Header
-  - Main Movie
-    - Trailer in background
-    - Title & Description
-    - MovieSuggestions
-      - MovieLists\*N
-- NetflixGPT
+Redux Toolkit: A state management library that simplifies the management of application state.
 
-  - SearchBar
-  - Movie Suggestions (using OpenAI API's)
+Firebase: A backend-as-a-service platform for authentication and real-time database support.
 
-  App can be accessed via this below link
+TMDB API: The Movie Database API is used to fetch movie and TV show data.
 
-https://657d7865ff0bc21bf5aae27b--sage-ganache-985ab2.netlify.app/
+OpenAI API: The OpenAI API is used for advanced movie search functionality using GPT.
+
+npm create-react-app: A tool for setting up a new React.js project quickly.
+
+Getting Started
+To get started with NetflixGPT on your local machine, follow these steps:
+
+Clone this repository:
+
+git clone https://github.com/yourusername/NetflixGPT.git
+Change to the project directory:
+
+cd NetflixGPT
+Install the project dependencies:
+
+npm install
+Create a Firebase project and configure it with your Firebase credentials.
+
+Create an OpenAI account and obtain an API key.
+
+Set up your environment variables with the necessary API keys and configurations.
+
+Start the development server:
+
+npm start
+Access the application in your web browser at http://localhost:3000.
