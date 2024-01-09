@@ -13,3 +13,5 @@ Netflix GPT offers a seamless movie browsing experience with the following featu
     3. Firebase Authentication: Secure user authentication powered by Firebase.
 
     4. OpenAI Movie Recommendations: Enter your OpenAI key for personalized movie suggestions.
+
+Explore the Project here: https://chinmay-netflix-gpt.netlify.app/browse
